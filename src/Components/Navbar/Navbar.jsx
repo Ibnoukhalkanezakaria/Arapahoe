@@ -17,7 +17,7 @@ const Navbar = () => {
           </div>
           <div>
             <ul
-              className={`absolute ${
+              className={`absolute lg:static lg:w-auto lg:h-auto  ${
                 open ? "top-[120px]" : "top-[-420px]"
               } w-full h-[300px] z-[-1] bg-primary-clr duration-500`}
             >
