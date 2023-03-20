@@ -16,7 +16,11 @@ const Footer = () => {
               </Link>
               <p className="max-w-[700px] pt-2 font-medium secondary-clr">
                 Design by Daywork, Ibnoukhalkane 2023 checkout the repository{" "}
-                <a href="" className="text-[#299644]">
+                <a
+                  target="_blank"
+                  href="https://github.com/Ibnoukhalkanezakaria/Arapahoe"
+                  className="text-[#299644]"
+                >
                   here
                 </a>
               </p>
@@ -25,12 +29,20 @@ const Footer = () => {
           <div>
             <ul>
               <li>
-                <a href="" className="secondary-clr text-[20px] font-medium">
+                <a
+                  target="_blank"
+                  href="https://www.twitter.com/"
+                  className="secondary-clr text-[20px] font-medium"
+                >
                   Twitter
                 </a>
               </li>
               <li>
-                <a href="" className="secondary-clr text-[20px] font-medium">
+                <a
+                  target="_blank"
+                  href="https://www.instagram.com/"
+                  className="secondary-clr text-[20px] font-medium"
+                >
                   Instagram
                 </a>
               </li>

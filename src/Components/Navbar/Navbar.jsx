@@ -6,7 +6,7 @@ const Navbar = () => {
   return (
     <div className="">
       <div className="Wrapper">
-        <div className="nav flex bg-primary-clr justify-between py-10 ">
+        <div className="nav flex items-center bg-primary-clr justify-between py-10 ">
           <div className="logo relative z-[10]">
             <Link
               to="/"
