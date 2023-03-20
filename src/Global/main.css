@@ -1,0 +1,85 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+:root {
+  /* Colors */
+  --primary-clr: #8cd5da;
+  --secondary-clr: #000000;
+  --color3: #000000b7;
+  --f1: calc(2.3rem + 8.3vw);
+  --f2: calc(2.3rem + 2vw);
+}
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+html,
+body {
+  height: 100%;
+  width: 100%;
+}
+body {
+  background-color: var(--primary-clr);
+  font-family: "Clash Display", sans-serif;
+  font-size: 16px;
+}
+a {
+  text-decoration: none;
+}
+ul {
+  list-style: none;
+}
+img {
+  max-width: 100%;
+}
+button {
+  outline: none;
+  border: none;
+}
+
+/* Classes */
+
+/* Colors */
+.primary-clr {
+  color: var(--primary-clr);
+}
+.secondary-clr {
+  color: var(--secondary-clr);
+}
+.color3 {
+  color: var(--color3);
+}
+
+/* Background */
+
+.bg-primary-clr {
+  background-color: var(--primary-clr);
+}
+.bg-secondary-clr {
+  background-color: var(--secondary-clr);
+}
+
+/* Wrapper */
+.Wrapper {
+  width: 95%;
+  margin-inline: auto;
+  padding-inline: 2rem;
+}
+
+@media (max-width: 480px) {
+  .Wrapper {
+    padding-inline: 1rem;
+  }
+}
+
+/* FontSize */
+
+.f1 {
+  font-size: var(--f1);
+}
+.f2 {
+  font-size: var(--f2);
+}
