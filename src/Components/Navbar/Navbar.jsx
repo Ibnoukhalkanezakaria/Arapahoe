@@ -17,7 +17,7 @@ const Navbar = () => {
           </div>
           <div>
             <ul
-              className={`py-6 lg:flex bg-primary-clr lg:flex-row lg:pl-0 duration-500 z-[1] pl-[6%] lg:bg-transparent absolute lg:static lg:w-auto lg:h-auto w-full left-0 ${
+              className={`py-6 lg:flex bg-primary-clr lg:flex-row lg:pl-0 duration-500 z-[1] pl-[6.6%] lg:bg-transparent absolute lg:static lg:w-auto lg:h-auto w-full left-0 ${
                 open ? "top-[100px]" : "top-[-400px]"
               } h-[300px]`}
             >
