@@ -14,7 +14,7 @@ const Footer = () => {
               >
                 arapahoe <span>&reg;</span>
               </Link>
-              <p className="max-w-[700px] pt-2 font-medium secondary-clr">
+              <p className="max-w-[700px] pt-2 font-medium secondary-clr leading-6">
                 Design by Daywork, Ibnoukhalkane 2023 checkout the repository{" "}
                 <a
                   target="_blank"
