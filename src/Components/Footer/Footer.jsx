@@ -17,8 +17,7 @@ const Footer = () => {
                 arapahoe <span>&reg;</span>
               </Link>
               <p className="max-w-[700px] pt-2 font-medium secondary-clr leading-6">
-                Design by Daywork, {displayToday} Ibnoukhalkane checkout the
-                repository
+                Design by Daywork, Ibnoukhalkane checkout the repository
                 <a
                   target="_blank"
                   href="https://github.com/Ibnoukhalkanezakaria/Arapahoe"

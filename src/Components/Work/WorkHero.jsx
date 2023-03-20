@@ -11,7 +11,7 @@ const WorkHero = () => {
           return (
             <div key={item.id}>
               <Link to={`${item.id}`}>
-                <h1 className="lg:text-[8vw] secondary-clr font-bold lg:leading-[55px] hover:opacity-50 cursor-pointer">
+                <h1 className="lg:text-[8vw] text-[12vw] leading-7 secondary-clr font-bold lg:leading-[55px] hover:opacity-50 cursor-pointer">
                   {name}
                 </h1>
               </Link>
