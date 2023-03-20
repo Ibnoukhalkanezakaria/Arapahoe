@@ -2,6 +2,8 @@ import React from "react";
 import { Link } from "react-router-dom";
 
 const Footer = () => {
+  var showDate = new Date();
+  var displayToday = showDate.getFullYear();
   return (
     <div className="py-[100px]">
       <div className="Wrapper ">
@@ -15,7 +17,8 @@ const Footer = () => {
                 arapahoe <span>&reg;</span>
               </Link>
               <p className="max-w-[700px] pt-2 font-medium secondary-clr leading-6">
-                Design by Daywork, Ibnoukhalkane 2023 checkout the repository{" "}
+                Design by Daywork, {displayToday} Ibnoukhalkane checkout the
+                repository
                 <a
                   target="_blank"
                   href="https://github.com/Ibnoukhalkanezakaria/Arapahoe"
