@@ -46,15 +46,15 @@ const AboutMain = () => {
             <h1 className="md:text-7xl text-4xl font-bold secondary-clr">
               Wanna join forces?
             </h1>
-            <button className="hover:opacity-50 bg-secondary-clr py-6 px-10 rounded-lg primary-clr">
-              <a
-                target="_blank"
-                href="https://calendly.com/"
-                className=" text-xl font-semibold primary-clr"
-              >
+            <a
+              target="_blank"
+              href="https://calendly.com/"
+              className=" text-xl font-semibold primary-clr"
+            >
+              <button className="hover:opacity-50 bg-secondary-clr py-6 px-10 rounded-lg primary-clr">
                 Schedule a call
-              </a>
-            </button>
+              </button>
+            </a>
           </div>
         </div>
       </div>
